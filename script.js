@@ -4,7 +4,7 @@ $(document).ready(() => {
     e.preventDefault();
     var searchText = $("#searchText").val();
 
-    var url = "http://www.omdbapi.com/?apikey=" + apikey;
+    var url = "https://www.omdbapi.com/?apikey=" + apikey;
 
     $.ajax({
       method: "GET",
